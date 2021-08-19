@@ -1,0 +1,77 @@
+.header {
+  width: 100%;
+  height: 150px;
+}
+.header__backColor {
+  /* background-color: hsl(0, 0%, 30%); */
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 100px;
+  background-color: #fff;
+  height: 40px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.header__right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+.header__Collection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin-right: 10px;
+}
+
+.header__listActive:hover a {
+  color: orangered;
+}
+
+.header__iconCollection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__listItem {
+  padding: 10px 0px;
+  margin-right:20px ;
+  position: relative;
+
+}
+.hover1 {
+  /* background-color: #000; */
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  transform: translateX(-200px);
+  opacity: 0;
+  transition: 1s;
+  border-bottom: 2px solid #000;
+  position: absolute;
+  
+}
+
+
+.header__icon__listItem {
+  padding: 0 5px;
+}
+.header__icon__listItem:first-child {
+  border-left: 2px solid #ccc;
+  padding-left: 15px;
+}
