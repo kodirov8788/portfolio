@@ -134,7 +134,8 @@
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #fff;
+  background-color: var(--main-color) !important;
+
   bottom: 1px;
   left: 0;
   z-index: -1;

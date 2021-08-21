@@ -38,6 +38,8 @@
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .quote-card-view {
