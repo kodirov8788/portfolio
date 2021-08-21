@@ -1,3 +1,9 @@
+:root{
+  --main-color: #e76022;
+  --hover-color: #2764BA;
+  --body-color: #E0E0E0;
+  --box-color: white;
+}
 
 *{
 margin: 0;

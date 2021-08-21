@@ -4,7 +4,7 @@ import {
   AiFillGithub,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
-
+import "./Footer.css"
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();

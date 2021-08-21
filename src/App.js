@@ -1,6 +1,5 @@
 import './App.css';
-import Main from './components/body/Main';
-import Header from "./components/header/Header"
+
 
 import React, { useState, useEffect } from "react";
 import Preloader from "../src/components/Pre";
