@@ -1,6 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-// import Particle from "../Particle";
+import { Container, Row, Col } from "react-bootstrap"
 import Github from "./Github";
 import Techstack from "./Techstack";
 import "./About.css"
@@ -11,7 +10,7 @@ import Toolstack from "./Toolstack";
 function About() {
   return (
     <div className="about__section">
-      {/* <Particle /> */}
+    
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
