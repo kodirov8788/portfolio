@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 // import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ function Footer() {
   let year = date.getFullYear();
   return (
     <Container fluid className="footer">
-      <Row>
+      <div className="footer__conatiner">
         <Col md="4" className="footer-copywright">
           <h3>Designed and Developed by Kodirov</h3>
         </Col>
@@ -53,7 +53,7 @@ function Footer() {
             </ul>
           }
         </Col>
-      </Row>
+      </div>
     </Container>
   );
 }
