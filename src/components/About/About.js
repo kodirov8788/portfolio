@@ -39,14 +39,11 @@ function About() {
           Professional <strong className="purple">Skillset </strong>{" "}
             <h3 style={{marginLeft: '20px'}}>Which I Used In My Projects</h3>
         </h1>
-
         <Techstack />
-
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Toolstack />
-
         <Github />
       </Container>
     </div>
