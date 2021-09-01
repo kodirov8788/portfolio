@@ -3,6 +3,7 @@
   height: 60px;
   padding: 5px 0;
   width: 100%;
+  display: block;
 }
 
 .footer-copywright {
