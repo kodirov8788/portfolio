@@ -3,7 +3,8 @@
   padding-top: 150px;
   padding-bottom: 30px;
   background-color: var(--background-color);
-  width: 1920px;
+   min-height: 100vh;
+   object-fit: contain;
   color: var(--text-color);
 }
 .blockquote {
