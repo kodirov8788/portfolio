@@ -14,22 +14,22 @@ function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <ImHtmlFive />
+        <ImHtmlFive className="html-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaCss3Alt />
+        <FaCss3Alt className="css-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBootstrap />
+        <SiBootstrap className="bootstrap-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
+        <DiJavascript1 className="javascript-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
+        <DiReact className="react-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiFirebase className="firebase-icon" />
       </Col>
     </Row>
   );

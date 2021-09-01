@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import "./About.css"
@@ -10,8 +10,8 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section">
-      <Particle />
+    <Container fluid className="about__section">
+      {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
@@ -36,7 +36,8 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Professional <strong className="purple">Skillset </strong>
+          Professional <strong className="purple">Skillset </strong>{" "}
+            <h3 style={{marginLeft: '20px'}}>Which I Used In My Projects</h3>
         </h1>
 
         <Techstack />

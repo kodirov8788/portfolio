@@ -37,9 +37,9 @@ function App() {
           <Route path="/" exact component={Home} />{" "}
           <Route path="/project" exact component={Projects} />{" "}
           <Route path="/about" exact component={About} />
-        </Switch>{" "}
-        <Footer />
-      </div>{" "}
+        </Switch>
+        <Footer/>
+      </div>
     </Router>
   );
 }

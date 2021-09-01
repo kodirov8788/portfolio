@@ -3,10 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "3d-react-carousal": "^4.0.2",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "awesome-react-carousel": "^1.0.10",
     "bootstrap": "^5.1.0",
+    "infinite-react-carousel": "^1.2.11",
     "react": "^17.0.2",
     "react-bootstrap": "^2.0.0-beta.5",
     "react-dom": "^17.0.2",

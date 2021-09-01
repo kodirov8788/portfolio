@@ -1,7 +1,9 @@
+
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import { Container, Col } from "react-bootstrap";
+// import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
+import Carousel from "../Slider";
 import "./Home.css";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -9,28 +11,42 @@ import Type from "./Type";
 function Home() {
   return (
     <section>
-      <Container fluid className="home-section" id="home">
+      <Container fluid className="home__section">
         <Particle />
-        <Container className="home-content">
-          <Row>
-            <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There! <span className="wave" role="img" aria-labelledby="wave">👋🏻</span>
+        <Container className="home__content">
+          <div className="home__header">
+            <Col md={7}>
+              <h1 className="heading">
+                Hi There! <br />
+                <br />
+                Welcome,
+                <strong className="main__name"> My Portfolio </strong>
+                <span className="wave" role="img" aria-labelledby="wave">
+                  👋🏻
+                </span>
               </h1>
-              <h1 className="heading-name">
-                I'M
-                <strong className="main-name"> Kodirov Mukhammadali</strong>
+              <h1 className="heading__name">
+                I'm
+                <strong className="main__name"> Kodirov Mukhammadali</strong>
               </h1>
-
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div>
                 <Type />
               </div>
+              <a
+                href="https://t.me/japanwork"
+                target="_blank"
+                className="home__mainBtn"
+                rel="noreferrer"
+              >
+                Contact Me By Telegram
+              </a>
             </Col>
-
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
-            </Col>
-          </Row>
+            <div className="home__carousel">
+              <Carousel/>
+              <br />
+              <h2>Watch My Projects</h2>
+            </div>
+          </div>
         </Container>
       </Container>
       <Home2 />

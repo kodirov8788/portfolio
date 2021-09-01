@@ -13,7 +13,7 @@ function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <Row>
+        <div className="home2__container" >
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
@@ -51,12 +51,12 @@ function Home2() {
               </i>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <div className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImg} className="img__fluid" alt="avatar" />
             </Tilt>
-          </Col>
-        </Row>
+          </div>
+        </div>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -69,7 +69,7 @@ function Home2() {
                   href="https://github.com/kodirov8788"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
+                
                 >
                   <AiFillGithub />
                 </a>
@@ -80,7 +80,6 @@ function Home2() {
                   href="https://www.linkedin.com/in/mukhammadali-kodirov-874b48214/"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
                 </a>
@@ -90,12 +89,10 @@ function Home2() {
                   href="https://t.me/japanwork"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour  home-social-icons"
                 >
                   <FaTelegramPlane />
                 </a>
               </li>
-
             </ul>
           </Col>
         </Row>

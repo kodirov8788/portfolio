@@ -1,11 +1,10 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
+// import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
-      
+    <div className="quote-card-view">
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kodirov Mukhammadali </span>
@@ -27,13 +26,13 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          <p  >
             "Strive to build things that make a difference!"{" "}
           </p>
 
         </blockquote>
    
-    </Card>
+    </div>
   );
 }
 

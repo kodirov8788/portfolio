@@ -6,13 +6,13 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGithub />
+        <SiGithub className="github-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiLinux className="linux-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiVisualstudiocode className="visual-icon" />
       </Col>
     </Row>
   );
