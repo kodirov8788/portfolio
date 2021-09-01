@@ -10,7 +10,7 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about__section">
+    <div className="about__section">
       {/* <Particle /> */}
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
@@ -49,7 +49,7 @@ function About() {
 
         <Github />
       </Container>
-    </Container>
+    </div>
   );
 }
 

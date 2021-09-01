@@ -4,8 +4,6 @@
   padding-top: 70px;
   background-color: var(--background-color);
   backdrop-filter: 2px;
-  width: 1920px;
-
   color: var(--box-color);
 }
 
