@@ -6,6 +6,7 @@
    min-height: 100vh;
    object-fit: contain;
   color: var(--text-color);
+  overflow-x: hidden;
 }
 .blockquote {
   color: var(--text-color);
