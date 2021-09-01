@@ -60,7 +60,7 @@
   color: var(--text-color);
   position: relative;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  overflow-x: hidden;
+ 
 }
 
 .home__content {
