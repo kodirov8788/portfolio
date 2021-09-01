@@ -34,9 +34,10 @@
 .footer-icons {
   display: flex;
   justify-content: space-evenly;
-  margin-left: 100px;
+  /* margin-right: -50px; */
+  padding: 0 50px;
   height: 100%;
-  width: 50%;
+  /* width: 50%; */
   /* width: 45px; */
   /* border: 1px solid #fff; */
 }
