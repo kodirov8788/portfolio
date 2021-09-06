@@ -1,8 +1,7 @@
 
 import React from "react";
 import { Container, Col } from "react-bootstrap";
-// import homeLogo from "../../Assets/home-main.svg";
-import Particle from "../Particle";
+// import Particle from "../Particle";
 import Carousel from "../Slider";
 import "./Home.css";
 import Home2 from "./Home2";
@@ -12,7 +11,7 @@ function Home() {
   return (
     <section>
       <Container fluid className="home__section">
-        <Particle />
+        {/* <Particle /> */}
         <Container className="home__content">
           <div className="home__header">
             <Col md={7}>

@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 
 
 const Carousel = () => {
-  
   const slides = [
     <img src="https://i.ibb.co/yhgnphj/YOUTUBE-CLONE.jpg" alt="youtube" />,
     <img src="https://i.ibb.co/742Z7nW/WEIGHT-CONVERTER.jpg" alt="youtube" />,
