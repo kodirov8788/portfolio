@@ -61,20 +61,87 @@
   .project__text {
     top: 6.5rem;
     width: 20em !important;
-    border-radius: 10px;
+    margin-left: 1.6rem !important;
     position: fixed;
+    display: block;
     transition: all 0.3s linear;
   }
 }
+@media (max-width: 420px) {
+  .project__cardSection {
+    margin-top: 45rem;
+    width: 80%;
+    display: grid;
+    /* position: relative; */
+    place-items: center;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+  .project__text {
+    top: 6.5rem;
+    width: 20em !important;
+    margin-left: 3rem !important;
+    position: fixed;
+    display: block;
+    transition: all 0.3s linear;
+  }
+}
+@media (max-width: 380px) {
+  .project__cardSection {
+    margin-top: 45rem;
+    width: 80%;
+    display: grid;
+    /* position: relative; */
+    place-items: center;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+  .project__text {
+    top: 6.5rem;
+    width: 20em !important;
+    margin-left: 1.7rem !important;
+    position: fixed;
+    display: block;
+    transition: all 0.3s linear;
+  }
+}
+@media (max-width: 330px) {
+  .project__cardSection {
+    margin-top: 45rem;
+    width: 80%;
+    display: grid;
+    /* position: relative; */
+    place-items: center;
+    left: auto;
+    margin-left: auto;
+    margin-right: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .project__text {
+    top: 6.5rem;
+    width: 16.5em !important;
+    margin-left: 1.6rem !important;
+    position: fixed;
+    display: block;
+    transition: all 0.3s linear;
+  }
+}
+
 .Scroll {
   margin-top: -35px !important;
   transition: all 0.3s linear;
 }
 .project__text {
   margin-left: 2em;
+  display: block;
   padding: 1em;
   width: 22em;
-  border-radius: 10px;
+  border-radius: 4px;
   position: fixed;
   transition: all 0.3s linear;
 }
