@@ -37,7 +37,7 @@ function Home() {
                 className="home__mainBtn"
                 rel="noreferrer"
               >
-                Contact Me By Telegram
+                 Contact Me By Telegram
               </a>
             </Col>
             <div className="home__carousel">

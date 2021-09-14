@@ -59,7 +59,7 @@
     grid-template-columns: 1fr;
   }
   .project__text {
-    top: 10rem;
+    top: 6rem;
     width: 20em !important;
     border-radius: 10px;
     position: fixed;

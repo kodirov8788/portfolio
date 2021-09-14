@@ -1,18 +1,20 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import "./About.css"
-import Aboutcard from "./AboutCard"
+import "./About.css";
+import Aboutcard from "./AboutCard";
 import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 
 function About() {
   return (
     <div className="about__section">
-    
       <Container>
-        <Row style={{ justifyContent: "center", padding: "10px" }}>
+        <Row
+          className="about__row"
+          style={{ justifyContent: "center", padding: "10px" }}
+        >
           <Col
             md={7}
             style={{
@@ -36,7 +38,7 @@ function About() {
         </Row>
         <h1 className="project-heading">
           Professional <strong className="purple">Skillset </strong>{" "}
-            <h3 style={{marginLeft: '20px'}}>Which I Used In My Projects</h3>
+          <h3 style={{ marginLeft: "20px" }}>Which I Used In My Projects</h3>
         </h1>
         <Techstack />
         <h1 className="project-heading">
