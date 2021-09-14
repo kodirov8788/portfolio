@@ -30,7 +30,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://t.me/japanwork"
+                  href="https://t.me/kodirovdev"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
