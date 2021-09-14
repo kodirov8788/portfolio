@@ -2,7 +2,6 @@ import React from "react";
 import { Container, Col } from "react-bootstrap";
 import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
-// import { Link } from "react-router-dom";
 import "./Footer.css";
 function Footer() {
   let date = new Date();

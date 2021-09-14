@@ -32,7 +32,7 @@ function Home() {
                 <Type />
               </div>
               <a
-                href="https://t.me/japanwork"
+                href="https://t.me/kodirovdev"
                 target="_blank"
                 className="home__mainBtn"
                 rel="noreferrer"

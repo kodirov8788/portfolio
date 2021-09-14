@@ -103,5 +103,15 @@ color:#0088cc;
   transition: all 0.5s linear;
 }
 
-
+@media only screen and (max-width: 480px) {
+ .home-about-section{
+   font-size: 10px;
+ }
+  .myAvtar{
+    display: none;
+  }
+  .home-about-social{
+    display: none;
+  }
+}
 

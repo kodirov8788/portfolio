@@ -70,10 +70,8 @@ function Projects() {
               <CgEnter />
             </a>
           </div>
-         
         </div>
       </div>
-
     );
   };
 

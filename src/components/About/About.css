@@ -90,7 +90,8 @@ border-radius: 5px;
 }
 
 @media (max-width: 767px) {
-  .about-img {
+  .about__img {
     padding-top: 0;
+    display: none;
   }
 }

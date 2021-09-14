@@ -59,3 +59,14 @@
 .blockquote-footer {
   color: #a588c0;
 }
+@media only screen and (max-width: 480px) {
+  .footer-body{
+    display: none;
+  }
+  .footer__conatiner{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+ 
+}

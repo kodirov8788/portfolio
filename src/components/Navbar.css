@@ -80,6 +80,16 @@ box-sizing: border-box !important;
   .navbar-nav .nav-item a::after {
     display: none;
   }
+ .nav__container{
+   background-color: #181A27;
+   margin-top: 5px;
+   margin-right: -1.5rem;
+   border-bottom-left-radius:10px ;
+   border-bottom-right-radius:10px ;
+
+   padding: 10px;
+   /* transition: all; */
+ }
 }
 
 .navbar-brand {
@@ -149,3 +159,10 @@ transform: scale(1.05);
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
+
+
+/* @media  (max-width: 480px) {
+.nav__toggle{
+  background-color: red;
+}
+} */

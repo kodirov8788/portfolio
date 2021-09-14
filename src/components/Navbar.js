@@ -12,12 +12,9 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-
 function NavBar() {
   const [expand, setExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(true);
-
   function scrollHandler() {
     if (window.scrollY <= 100) {
       updateNavbar(true);
@@ -35,30 +32,29 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-     
         <Navbar.Brand href="/">
           <img src={logo} className="logo" alt="brand" />
         </Navbar.Brand>
-        <Navbar.Toggle
+        <Navbar.Toggle className="nav__toggle"
           aria-controls="responsive-navbar-nav"
           onClick={() => {
             setExpanded(expand ? false : "expanded");
           }}
+          
         >
           <span></span>
           <span></span>
           <span></span>
         </Navbar.Toggle>
 
-
-        <Navbar.Collapse id="responsive-navbar-nav">
+        <Navbar.Collapse >
           <Nav className="ml-auto nav__container" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => setExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item>
               <Nav.Link
                 as={Link}

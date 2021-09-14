@@ -7,7 +7,6 @@ import {
 import { SiFirebase, SiBootstrap } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
  import {FaCss3Alt} from "react-icons/fa";
-//  import { FaCss3Alt } from "react-icons/fa";
 
 
 function Techstack() {
