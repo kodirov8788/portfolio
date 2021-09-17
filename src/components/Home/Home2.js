@@ -2,30 +2,25 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import "./Home2.css"
-import {
-  AiFillGithub,
-
-} from "react-icons/ai";
+import "./Home2.css";
+import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn, FaTelegramPlane } from "react-icons/fa";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
-        <div className="home2__container" >
+        <div className="home2__container">
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with coding and respect other coders
-              <br />
               <br />I am Fluent Javascript and React
               <i>
                 <b className="purple"> Css, Javascript and React. </b>
               </i>
-              <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
@@ -35,7 +30,6 @@ function Home2() {
                   Deep Learning and Natural Launguage Processing.
                 </b>
               </i>
-              <br />
               <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
@@ -69,7 +63,6 @@ function Home2() {
                   href="https://github.com/kodirov8788"
                   target="_blank"
                   rel="noreferrer"
-                
                 >
                   <AiFillGithub />
                 </a>

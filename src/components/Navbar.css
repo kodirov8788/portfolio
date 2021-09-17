@@ -4,12 +4,12 @@
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171);
   backdrop-filter: blur(15px);
   transform: translateY(0) !important;
-box-sizing: border-box !important;
+  box-sizing: border-box !important;
 }
 
 .navbar {
   box-sizing: border-box;
-  position: fixed ;
+  position: fixed;
   transition: all 0.3s ease-out 0s;
   padding: 0.3rem 2rem;
   margin: 0 !important;
@@ -80,16 +80,16 @@ box-sizing: border-box !important;
   .navbar-nav .nav-item a::after {
     display: none;
   }
- .nav__container{
-   background-color: #181A27;
-   margin-top: 5px;
-   margin-right: -1.5rem;
-   border-bottom-left-radius:10px ;
-   border-bottom-right-radius:10px ;
+  .nav__container {
+    background-color: #181a27;
+    margin-top: 5px;
+    margin-right: -1.5rem;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 
-   padding: 10px;
-   /* transition: all; */
- }
+    padding: 10px;
+    /* transition: all; */
+  }
 }
 
 .navbar-brand {
@@ -97,26 +97,25 @@ box-sizing: border-box !important;
 }
 
 .logo {
-  height: 3em ;
-  width: 5em ;
+  height: 30px;
+  width: 40px;
   background-color: #ccc;
   border-radius: 5px;
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   /* border: 0.5px solid white; */
 }
 
-
-.nav__container{
-    position: absolute;
-    right: 50px;
+.nav__container {
+  position: absolute;
+  right: 50px;
 }
 .navbar-nav .nav-link {
   color: white !important;
   padding-right: 1rem;
   padding-left: 1rem;
 }
-.navbar-nav .nav-link:hover{
-transform: scale(1.05);
+.navbar-nav .nav-link:hover {
+  transform: scale(1.05);
 }
 
 .nav-link {
@@ -159,7 +158,6 @@ transform: scale(1.05);
 .navbar-nav .nav-item a:hover::after {
   width: 100%;
 }
-
 
 /* @media  (max-width: 480px) {
 .nav__toggle{

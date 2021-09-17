@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Container, Col } from "react-bootstrap";
 // import Particle from "../Particle";
@@ -26,7 +25,7 @@ function Home() {
               </h1>
               <h1 className="heading__name">
                 I'm
-                <strong className="main__name"> Kodirov Mukhammadali</strong>
+                <strong className="main__name"> Mukhammadali Kodirov</strong>
               </h1>
               <div>
                 <Type />
@@ -37,11 +36,11 @@ function Home() {
                 className="home__mainBtn"
                 rel="noreferrer"
               >
-                 Contact Me By Telegram
+                Contact Me By Telegram
               </a>
             </Col>
             <div className="home__carousel">
-              <Carousel/>
+              <Carousel />
               <br />
               <h2>Watch My Projects</h2>
             </div>

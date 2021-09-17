@@ -1,7 +1,7 @@
 .home-about-section {
   position: relative;
-  padding-bottom: 70px;
-  padding-top: 70px;
+  padding-bottom: 10px;
+  padding-top: 30px;
   background-color: var(--background-color);
   backdrop-filter: 2px;
   color: var(--box-color);
@@ -9,7 +9,7 @@
 
 .home-about-description {
   color: var(--text-color);
-  padding-top: 30px;
+  padding-top: 100px;
   padding-bottom: 20px;
   text-align: center;
 }
