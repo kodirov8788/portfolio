@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { CgEnter } from "react-icons/cg";
 import { FaArrowAltCircleDown } from "react-icons/fa";
 import "./Projects.css";
@@ -57,6 +57,14 @@ function Projects() {
       image: "https://i.ibb.co/jr77kX9/SIDEBAR.jpg",
       route: "https://awesome-wiles-637f17.netlify.app",
     },
+    {
+      image: "https://i.ibb.co/s6WHL9k/Screen-Shot-2021-11-16-at-10-56-35.png",
+      route: "https://dunyoshop.herokuapp.com/",
+    },
+    {
+      image: "https://i.ibb.co/CvJ1jRZ/Screen-Shot-2021-11-16-at-10-58-04.png",
+      route: "https://algoritm-edu.vercel.app/",
+    },
   ];
 
   const renderCard = (card, index) => {
@@ -106,7 +114,7 @@ function Projects() {
           <h3>Here is my resume</h3>
           <FaArrowAltCircleDown />
           <a
-            href="https://drive.google.com/file/d/1eyxhuyjkX5-BLP8kXaGL573vaoDrOM-2/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rTqQhfLN6NsS39oPrYiSTSklxYPxaJct/view?usp=sharing"
             className="resume__btn"
           >
             Download Resume
