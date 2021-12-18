@@ -102,14 +102,13 @@ function Projects() {
         </h2>
         <p>Here are a few projects I've worked on recently.</p>
         <p>
-          Well, These projects are not good as you thought, but I believe that
-          one day I can create Lovely websites with JavaScript libraries because
-          I am trying and learing every day, every hour and every minut.
+          I have nearly 2 years of experience with React.js. I believe in the
+          strong dedication in each project of my clients. Besides, I can help
+          you with: <br /> 1. HTML5 and Css <br /> 2. Vanilla JavaScript
+          projects <br /> 3. React JS and Next.js projects <br /> 4.Tailwinds
+          and bootstrap <br /> 5. if needed Node.js and MongoDB database
         </p>
-        <p>
-          Also, I like challenges, because without that our life would not be
-          colorfull. Additionally difficultness makes me skill up in coding{" "}
-        </p>
+
         <div className="resume__links">
           <h3>Here is my resume</h3>
           <FaArrowAltCircleDown />
