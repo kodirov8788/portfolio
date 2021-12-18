@@ -113,7 +113,7 @@ function Projects() {
           <h3>Here is my resume</h3>
           <FaArrowAltCircleDown />
           <a
-            href="https://drive.google.com/file/d/1rTqQhfLN6NsS39oPrYiSTSklxYPxaJct/view?usp=sharing"
+            href="https://drive.google.com/file/d/1o0Y6EABMIN1ItCUKjXJ27hx3syWdrRjQ/view?usp=sharing"
             className="resume__btn"
           >
             Download Resume
