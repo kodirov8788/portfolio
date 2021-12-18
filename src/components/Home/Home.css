@@ -70,7 +70,6 @@
 .main__name {
   color: var(--main-color);
   font-family: fantasy;
-  font-style: oblique;
 }
 
 .Typewriter__wrapper {
@@ -200,31 +199,30 @@
 
 @media (max-width: 480px) {
   .home__header {
-  display: flex;
-  font-size: 9px;
+    display: flex;
+    font-size: 9px;
   }
-  .home__carousel{
+  .home__carousel {
     /* display: none; */
     top: 60%;
     left: 0;
-      /* margin-top: 30px; */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  z-index: 1000;
-  margin: 0 1.5rem;
+    /* margin-top: 30px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1000;
+    margin: 0 1.5rem;
   }
-  .home__content{
+  .home__content {
     display: flex !important;
     justify-content: center !important;
-   
   }
-  .home__mainBtn{
-     margin-top: 50px;
-  width: 150px !important;
-  font-size: 12px;
-  height: 50px;
+  .home__mainBtn {
+    margin-top: 50px;
+    width: 150px !important;
+    font-size: 12px;
+    height: 50px;
   }
 }
