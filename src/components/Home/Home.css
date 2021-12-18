@@ -168,7 +168,7 @@
 .home__techIcons {
   width: 80%;
   height: 80%;
-  border: 1.7px solid #ff5733;
+  border: 1.7px solid var(--main-color);
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -189,7 +189,7 @@
 .home__techIcons:hover {
   transform: scale(1.05);
   overflow: hidden;
-  border: 2.2px solid #ff5733;
+  border: 2.2px solid var(--main-color);
   filter: contrast(150%);
 }
 
