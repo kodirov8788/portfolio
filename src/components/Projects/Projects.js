@@ -59,7 +59,7 @@ function Projects() {
     },
     {
       image: "https://i.ibb.co/s6WHL9k/Screen-Shot-2021-11-16-at-10-56-35.png",
-      route: "https://dunyoshop.herokuapp.com/",
+      route: "https://dunyoshop.uz/",
     },
     {
       image: "https://i.ibb.co/CvJ1jRZ/Screen-Shot-2021-11-16-at-10-58-04.png",
