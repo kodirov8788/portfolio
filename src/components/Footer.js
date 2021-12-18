@@ -30,7 +30,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://t.me/kodirovdev"
+                  href="https://www.linkedin.com/in/mukhammadali-kodirov-874b48214/"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -41,7 +41,7 @@ function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/in/mukhammadali-kodirov-874b48214/"
+                  href="https://t.me/kodirovdev"
                   style={{ color: "white" }}
                   target="_blank"
                   rel="noopener noreferrer"

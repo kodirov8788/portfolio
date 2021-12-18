@@ -1,11 +1,11 @@
 :root {
-  --main-color: #e76022;
+  --main-color: #f36727;
   --hover-color: #2764ba;
   --background-color: #98c5e9;
   --text-color: #06285e;
   --body-color: #e0e0e0;
   --box-color: white;
-  --telegram-color: #48A8E9;
+  --telegram-color: #48a8e9;
 }
 
 * {
@@ -13,8 +13,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
-  
-  
 }
 
 body {

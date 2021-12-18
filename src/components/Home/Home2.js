@@ -36,12 +36,12 @@ function Home2() {
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks
+                  Modern Javascript and React.js Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js</b>
+                <b className="purple"> Next.js</b>
               </i>
             </p>
           </Col>
@@ -79,7 +79,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://t.me/japanwork"
+                  href="https://t.me/kodirovdev"
                   target="_blank"
                   rel="noreferrer"
                 >

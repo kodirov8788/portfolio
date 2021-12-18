@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Navbar.css";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import logo from "../Assets/MK.svg";
+// import logo from "../Assets/MK.svg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -32,8 +32,11 @@ function NavBar() {
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Navbar.Brand href="/">
-        <img src={logo} className="logo" alt="brand" />
+      <Navbar.Brand
+        href="/"
+        style={{ color: "white", fontFamily: "Noto Serif", fontSize: "30px" }}
+      >
+        KodirovDev
       </Navbar.Brand>
       <Navbar.Toggle
         className="nav__toggle"

@@ -1,13 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import {
-  DiJavascript1,
-  DiReact,
-} from "react-icons/di";
-import { SiFirebase, SiBootstrap } from "react-icons/si";
+import { DiJavascript1, DiReact, DiNodejsSmall } from "react-icons/di";
+import { SiFirebase, SiBootstrap, SiTailwindcss } from "react-icons/si";
 import { ImHtmlFive } from "react-icons/im";
- import {FaCss3Alt} from "react-icons/fa";
-
+import { FaCss3Alt } from "react-icons/fa";
 
 function Techstack() {
   return (
@@ -22,6 +18,9 @@ function Techstack() {
         <SiBootstrap className="bootstrap-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss className="tailwind-icon" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 className="javascript-icon" />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -29,6 +28,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFirebase className="firebase-icon" />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiNodejsSmall className="node-icon" />
       </Col>
     </Row>
   );

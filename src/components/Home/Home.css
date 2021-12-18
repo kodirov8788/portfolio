@@ -69,11 +69,12 @@
 
 .main__name {
   color: var(--main-color);
-  font-family: fantasy;
+  font-family: Noto Serif;
+  font-style: italic;
 }
 
 .Typewriter__wrapper {
-  font-size: 2.2em;
+  font-size: 2em;
   color: var(--main-color);
   font-weight: 600;
   font-family: fantasy;
