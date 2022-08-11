@@ -106,7 +106,7 @@ function Projects() {
           strong dedication in each project of my clients. Besides, I can help
           you with: <br /> 1. HTML5 and Css <br /> 2. Vanilla JavaScript
           projects <br /> 3. React JS and Next.js projects <br /> 4.Tailwinds
-          and bootstrap <br /> 5. if needed Node.js and MongoDB database
+          and bootstrap <br /> 5.Node.js and MongoDB database || firebase
         </p>
 
         <div className="resume__links">
